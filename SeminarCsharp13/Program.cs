@@ -20,6 +20,3 @@ else
     Console.WriteLine("третье число это " + find);
 }
 
-
-
-
