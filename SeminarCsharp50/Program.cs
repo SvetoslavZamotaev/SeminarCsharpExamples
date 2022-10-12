@@ -15,7 +15,7 @@ int[,] mainArr = { { 1, 2, 3, 4 }, { 4, 5, 6, 7 }, { 34, 65, 76, 45 }, { 23, 34,
 
 
 Console.WriteLine("Введите номер элемента в массиве через пробел или запятую и программа покажет его значение");
-string number = Console.ReadLine();
+string number = Console.ReadLine()!;
 string[] numbers = number.Split(' ', ',');
 Console.WriteLine(string.Join(' ', numbers));
 int[] index = Array.ConvertAll(numbers, int.Parse);

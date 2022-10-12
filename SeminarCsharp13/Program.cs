@@ -5,7 +5,7 @@
 // Я очень не уверен что от меня ждали такого решения но я не смог додуматься до другого :(
 Console.Clear();
 Console.WriteLine("Введите число ");
-string number = Console.ReadLine();
+string number = Console.ReadLine()!;
 
 int length = number.Length;
 
